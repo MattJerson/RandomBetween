@@ -1,0 +1,12 @@
+package functions;
+public class RandBetween {
+public static void main(String[] args) { 
+int Min = 0;
+int Max = 100;
+System.out.println("Random value in int from "+Min+" to "+Max+ ":");
+int Random = (int)Math.floor(Math.random()*(Max-Min+1)+Min);
+System.out.println(Random);
+}    
+}
+// How the program work is whenever you run the program
+// you get a random generated number
